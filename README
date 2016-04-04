@@ -1,0 +1,12 @@
+DOS 版 《仙剑奇侠传》 MKF 数据文件解包器
+
+MKF 的格式信息是从 lionel 网友所作的《仙剑奇侠传.MKF文件格式分析》中得来的
+原文地址： http://lionel.bokee.com/438727.html
+
+只用这个程序解压过 MIDI.MKF，其他的文件没有测试过。
+
+几个宏：
+    MKF_FILE 待解压的 MKF 文件名
+    UNPACK_NUMBERSTART 解压出的文件的序号的起始数字
+    UNPACK_TEMPLATE 解压出的文件的文件名模板
+
